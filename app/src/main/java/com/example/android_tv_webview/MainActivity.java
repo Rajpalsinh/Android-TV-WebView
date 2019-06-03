@@ -21,6 +21,5 @@ public class MainActivity extends Activity {
         myWebview.getSettings().setJavaScriptEnabled(true);
         myWebview.setWebViewClient(new WebViewClient());
         myWebview.loadUrl(EXTRA_URL);
-
     }
 }
